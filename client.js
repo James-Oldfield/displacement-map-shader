@@ -28,7 +28,7 @@ const mat = new global.THREE.ShaderMaterial({
     },
     scale: {
       type: 'f',
-      value: 0.75,
+      value: 2.0,
     },
   },
 });
@@ -39,7 +39,9 @@ app.on('tick', () => {
   const width = window.innerWidth;
   const height = window.innerHeight;
 
-  mat.uniforms.time.value += 0.05;
+  mat.uniforms.time.value += 0.01;
+
+  app.scene.rotation.x += 0.02;
 
   bg.style({
     aspect: width / height,
