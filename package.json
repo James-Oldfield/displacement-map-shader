@@ -1,13 +1,11 @@
 {
-  "name": "webpack-three-hmr-test",
+  "name": "displacement-map-shader",
   "version": "1.0.0",
   "description": "",
   "main": "client.js",
   "license": "MIT",
   "author": {
-    "name": "Matt DesLauriers",
-    "email": "dave.des@gmail.com",
-    "url": "https://github.com/mattdesl"
+    "name": "James Oldfield",
   },
   "dependencies": {
     "global": "^4.3.0",
@@ -27,6 +25,7 @@
     "babel-preset-es2015": "^6.3.13",
     "glsl-map": "^1.0.1",
     "ify-loader": "mattdesl/ify-loader#fix-errors",
+    "threejs-generate-gif": "^1.1.28",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
@@ -36,7 +35,6 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattdesl/webpack-three-hmr-test.git"
   },
   "browserify": {
     "transform": [
@@ -49,8 +47,4 @@
       "glslify-hex"
     ]
   },
-  "homepage": "https://github.com/mattdesl/webpack-three-hmr-test",
-  "bugs": {
-    "url": "https://github.com/mattdesl/webpack-three-hmr-test/issues"
-  }
 }
