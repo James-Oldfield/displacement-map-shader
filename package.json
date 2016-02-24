@@ -5,7 +5,7 @@
   "main": "client.js",
   "license": "MIT",
   "author": {
-    "name": "James Oldfield",
+    "name": "James Oldfield"
   },
   "dependencies": {
     "global": "^4.3.0",
@@ -34,7 +34,7 @@
   },
   "keywords": [],
   "repository": {
-    "type": "git",
+    "type": "git"
   },
   "browserify": {
     "transform": [
@@ -46,5 +46,5 @@
       "glslify-fancy-imports",
       "glslify-hex"
     ]
-  },
+  }
 }
