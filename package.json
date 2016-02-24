@@ -30,7 +30,8 @@
     "webpack-dev-server": "^1.14.0"
   },
   "scripts": {
-    "start": "webpack-dev-server client.js --inline --hot --colors --port=9966"
+    "start": "webpack-dev-server client.js --inline --hot --colors --port=9966",
+    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js"
   },
   "keywords": [],
   "repository": {
